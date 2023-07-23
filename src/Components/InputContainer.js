@@ -2,7 +2,7 @@ const InputContainer = () => {
   return (
     <div>
       <p>Here you can see the text</p>
-      <button>Click here ➤</button>
+      <button className="btn-input-container">Click here ➤</button>
     </div>
   );
 };
