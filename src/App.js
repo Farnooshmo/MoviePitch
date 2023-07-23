@@ -1,10 +1,12 @@
-import './App.css';
-import Header from './Components/Header';
+import "./App.css";
+import Header from "./Components/Header";
+import InputContainer from "./Components/InputContainer";
 
 function App() {
   return (
     <div className="App">
-<Header />
+      <Header />
+      <InputContainer />
     </div>
   );
 }
